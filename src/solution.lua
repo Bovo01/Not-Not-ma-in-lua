@@ -24,7 +24,6 @@ function Solution.generateSolution(difficulty)
   difficulty = difficulty or Difficulties.EASY -- Valore default se non viene inserito niente
   local direction = DirectionsArray[math.random(#DirectionsArray)]
   local nots = math.random(0, difficulty)
-  print(direction.x, direction.y)
 
   return Solution:new {direction = direction, nots = nots}
 end
