@@ -1,6 +1,6 @@
-require("model/porta")
-require("model/game")
-require("model/solution")
+require("src/porta")
+require("src/game")
+require("src/solution")
 
 function love.load()
   -- Setto un random skillato

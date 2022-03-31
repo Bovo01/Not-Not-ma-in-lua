@@ -1,6 +1,6 @@
-require("model/enums/directions")
-require("model/enums/colors")
-require("model/enums/difficulties")
+require("src/enums/directions")
+require("src/enums/colors")
+require("src/enums/difficulties")
 
 -- Creo l'istanza della classe
 Porta = {}

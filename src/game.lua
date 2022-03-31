@@ -5,7 +5,7 @@ Game = {}
 Game.prototype = {
   porte = {},
   solution = nil,
-  difficulty = Difficulties.EASY
+  difficulty = Difficulties.HARD
 }
 
 -- Creazione di una nuova istanza 'Game'
